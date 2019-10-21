@@ -1,0 +1,57 @@
+#outerbox 
+ {
+   width: 720px;
+   overflow: hidden; 
+}
+#sliderbox 
+{
+    position: relative;
+    width: 2880px;
+    animation-name: bea;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+#sliderbox img
+ {
+    float: left;
+}
+@keyframes bea {
+    0%
+    {
+        left: 0px;
+    }
+    20%
+    {
+        left: 0px;
+    }
+    25%
+    {
+        left: -720px;
+    }
+    45%
+    {
+        left: -720px;
+    }
+
+    50%
+    {
+        left: -1440px;
+    }
+    70%
+    {
+        left: -1440px;
+    }
+    75%
+    {
+        left: -2160px;
+    }
+    95%
+    {
+        left: -2160px;
+    }
+     100% 
+    {
+        left: -2880px;
+
+    }
+}
